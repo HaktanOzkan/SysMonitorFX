@@ -1,0 +1,50 @@
+/* src/main/resources/css/style.css */
+
+/* Genel stil ayarları */
+.root {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-background-color: #f0f0f0;
+}
+
+/* Metin stili */
+.text {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-fill: #333;
+}
+
+/* CPU ve RAM kullanım metinlerinin farklı renklerde görünmesi için ayarlar */
+.text-cpu {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-fill: #ff4500; /* Turuncu */
+}
+
+.text-ram {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-fill: #1e90ff; /* Mavi */
+}
+
+/* ProgressBar stili */
+.progress-bar {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 20px;
+}
+
+/* LineChart stili */
+.chart-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+}
